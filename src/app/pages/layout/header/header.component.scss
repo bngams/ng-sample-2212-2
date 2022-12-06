@@ -1,0 +1,24 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+nav {
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      margin: 15px;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &.active {
+          font-weight: bolder;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
